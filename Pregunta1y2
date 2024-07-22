@@ -1,0 +1,17 @@
+Examen extraordinario – Estructura de datos
+Primera pregunta
+Una empresa cuenta con un sistema informático que desea optimizar y le ha contratado a Ud. para identificar el cuello de botella y mejorar las falencias con la que el sistema cuenta. El sistema informático es un servicio web de consultas que consta de tres partes fundamentales, un cliente(navegador), un servidor (aplicación en java) y un gestor de base de datos (PostgreSQL). luego de una semana de diferentes pruebas empíricas.
+Usted ha obtenido el siguiente resultado: 
+Proceso total 3,5 seg.
+Cliente 0,5 seg. 
+Aplicacion 1,5 seg. 
+Base de datos 1,5 seg. 
+Considerando el analisis previo, identifique cual sistema debería ser optimizado para lograr un mejor desempeño del sistema y justifique su respuesta.
+Respuesta
+Teniendo en cuenta los tiempos obtenidos, la aplicación y la base de datos son los sistemas que más tiempo llevan, por ende serían los que al optimizar, mostrarían una mejora sustancial en el proceso total, se podría optimizar cualquiera de ambos primero.
+Segunda pregunta
+Los algoritmos pueden ser eficientes para determinados tamaños de N. Considere que existe el algoritmo A que tarda 7n^2 + 19n y el algoritmo B que tarda n^2 + 13n. Responda las siguientes preguntas: A) Determine el valor de N donde ambos algoritmos son igualmente eficientes. B) Si N es menor que el valor encontrado, ¿cuál algoritmo debería de utilizar? ¿Por qué?
+Respuesta
+A)	Al buscar el valor de N obtenemos dos respuestas, n= -1 y n=0, descartamos n=-1 ya que no representa un tamaño y no puede ser negativo.
+Entonces N=0.
+B)	Para valores de n, 7n^2 será mayor que n^2 para valores considerables, en cambio si n es pequeño, el algoritmo B puede ser menor porque los términos lineales dominan en menor tamaño.
